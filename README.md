@@ -13,7 +13,8 @@ Start by cloning the Apache Flink repository with Git Bash in C: drive:
 ```Git Bash
 git clone https://github.com/apache/flink.git
 ```
-Next, import your project and configure your settings as described in https://ci.apache.org/projects/flink/flink-docs-release-1.6/internals/ide_setup.html.
+Next, import your project and configure your settings as described in https://ci.apache.org/projects/flink/flink-docs-release-1.6/internals/ide_setup.html. <br>
+(**Note:** Building your project in IntelliJ could take awhile.) 
 
 Code for getting first n elements in a dataset:
 ```Flink
