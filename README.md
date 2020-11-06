@@ -9,8 +9,12 @@ IntelliJ
 Git Bash
 
 ## Code to Execute Skill
-Start by cloning the git repository with the following code:
-''' git clone https://github.com/apache/flink.git '''
+Start by cloning the Apache Flink repository with Git Bash in C: drive:
+```Git Bash
+git clone https://github.com/apache/flink.git
+```
+<br>
+Next, import your project and configure your settings as described in https://ci.apache.org/projects/flink/flink-docs-release-1.6/internals/ide_setup.html.
 
 ### References
 - Source showing how to download IntelliJ and Flink: https://ci.apache.org/projects/flink/flink-docs-release-1.6/internals/ide_setup.html 
