@@ -1,8 +1,8 @@
 # big-data-flink-project
 
 ## Author
-Jack W Beaver <br>
-<img src="Selfie.jpg" widt="150" height="200" /><br>
+[Jack W Beaver](https://github.com/JackWBeaver) <br>
+<img src="Selfie.jpg" widt="150" height="200" />
 
 ## Tools
 - IntelliJ
