@@ -7,6 +7,13 @@
 ## Tools
 - IntelliJ
 - Git Bash
+- NetCat
+
+## Introduction to Flink
+-
+-
+-
+-
 
 ## Prerequisites
 Start by cloning the Apache Flink repository with Git Bash in C: drive:
@@ -15,11 +22,10 @@ git clone https://github.com/apache/flink.git
 ```
 Next, import your project and configure your settings as described in the following URL: (**Note:** Building your project in IntelliJ could take awhile, so just wait while it adds all files.) <br>  https://ci.apache.org/projects/flink/flink-docs-master/flinkDev/ide_setup.html#pycharm
 
-After setup make sure to build the test in the terminal window to clean project with:
-```Terminal Code
-mvn clean install -DskipTests
-```
 Now you're ready to get started!
+
+## Flink Set Up with Maven
+
 
 ## Code to Execute Skill
 Code for getting first n elements in a dataset:
@@ -34,3 +40,4 @@ Final Result:
 - Source for setting up Flink Development Environment: https://cwiki.apache.org/confluence/display/FLINK/Setting+up+a+Flink+development+environment
 - Repository cloned and used to download Flink: https://github.com/apache/flink
 - Download Link for IntelliJ: https://www.jetbrains.com/idea/download/#section=windows
+- Download Link for NetCat: https://nmap.org/download.html
