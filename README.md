@@ -41,7 +41,7 @@ System.out.println(output);
 ```
 <img src="Success1.PNG" width="600" height="300"/>
 
-After running your java code, open up a terminal and run ```ncat -l 9000``` to run NetCat on a local terminal at port 9000. This will be your final result:
+After running your java code, open up a terminal and run ```ncat -l 9000``` to run NetCat on a local terminal at port 9000. This will be the final result: <br>
 <img src="Success2.PNG" width="600" height="300"/>
 
 
