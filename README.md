@@ -24,14 +24,25 @@ Next, import your project and configure your settings as described in the follow
 Now you're ready to get started!
 
 ## Flink Set Up with Maven
+Use IntelliJ to create a new Maven Project. When creating the project check the box next to "Create from archetype" then select ```org.apache.flink:flink-quickstart-java``` (see image below). Clink ```Next``` until you have created your project.
+<img src="Maven1.PNG" width="600" height="300"/>
 
+Check your ```pom.xml``` file to make sure that your dependencies dare in order, then you are ready to start writing code.
 
 ## Code to Execute Skill
-Code for getting first n elements in a dataset:
-```Flink
+Code for getting First n Elements (see image below to see full java file):
+```Java
+//Reads a CSV file to be used to for returning elements
+ArrayList<String> original = new ArrayList<>(Arrays.asList("Jack", "Chiefs", "Royals", "Mizzou", "Beaver", "Big Data", "NWMSU", "KC", "USA"));
+List<String> output = original.subList(0,4);
 
+//Print Statement
+System.out.println(output);
 ```
-Final Result:
+<img src="Success1.PNG" width="600" height="300"/>
+
+After running your java code, open up a terminal and run ```ncat -l 9000``` to run NetCat on a local terminal at port 9000. This will be your final result:
+<img src="Success2.PNG" width="600" height="300"/>
 
 
 ### References
