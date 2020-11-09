@@ -10,10 +10,9 @@
 - NetCat
 
 ## Introduction to Flink
--
--
--
--
+- Flink is an open-source, unified stream-processing and batch processing framework. It was developed by the Apache Software Foundation.
+- A distributed streaming data-flow engine written in Java and Scala.
+- Executes arbitrary dataflow programs in a data-parallel and pipelined manner.
 
 ## Prerequisites
 Start by cloning the Apache Flink repository with Git Bash in C: drive:
