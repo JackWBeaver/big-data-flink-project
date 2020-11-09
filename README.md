@@ -8,18 +8,20 @@
 - IntelliJ
 - Git Bash
 
-## Code to Execute Skill
+## Prerequisites
 Start by cloning the Apache Flink repository with Git Bash in C: drive:
 ```Git Bash
 git clone https://github.com/apache/flink.git
 ```
-Next, import your project and configure your settings as described in the following URL: (**Note:** Building your project in IntelliJ could take awhile.) <br>  https://ci.apache.org/projects/flink/flink-docs-master/flinkDev/ide_setup.html#pycharm
+Next, import your project and configure your settings as described in the following URL: (**Note:** Building your project in IntelliJ could take awhile, so just wait while it adds all files.) <br>  https://ci.apache.org/projects/flink/flink-docs-master/flinkDev/ide_setup.html#pycharm
 
-After setup make sure to build the test in the terminal window with:
+After setup make sure to build the test in the terminal window to clean project with:
 ```Terminal Code
 mvn clean install -DskipTests
 ```
+Now you're ready to get started!
 
+## Code to Execute Skill
 Code for getting first n elements in a dataset:
 ```Flink
 
